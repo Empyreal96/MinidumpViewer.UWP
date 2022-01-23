@@ -1,6 +1,6 @@
 # MinidumpViewer for Windows 10 Mobile (and Desktop)
 
-View raw info from various data streams inside Windows MiniDump format crash dumps.
+View raw info from various data streams inside Windows MiniDump format crash dumps. *Very WIP*
 
 ### Requirements
 
@@ -11,3 +11,5 @@ View raw info from various data streams inside Windows MiniDump format crash dum
 
 ### Notes
 Uses DbgHelp.MinidumpFiles.UWP and `dbghelp.dll` from Windbg ARM tools (only for W10M)
+
+Much of the code is essentially a fork of [MinidumpExplorer](https://github.com/GregTheDev/MinidumpExplorer)
